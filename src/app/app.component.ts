@@ -27,6 +27,8 @@ export class AppComponent {
      yAxis : {
         categories: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
            title: null
+
+           
      },
      colorAxis : {
         min: 0,
