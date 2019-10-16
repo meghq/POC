@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import * as Highcharts from 'highcharts';
 import * as highchartsHeatmap from 'highcharts/modules/heatmap';
-highchartsHeatmap(Highcharts);
 
 @Component({
   selector: 'app-root',
@@ -28,7 +27,7 @@ export class AppComponent {
         categories: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
            title: null
 
-           
+
      },
      colorAxis : {
         min: 0,
